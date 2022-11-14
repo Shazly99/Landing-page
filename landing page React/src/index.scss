@@ -1,0 +1,28 @@
+
+
+
+::-webkit-scrollbar{
+  width: 4px;
+}
+
+::-webkit-scrollbar-track{
+  background-color:transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #AAAAAA;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #aaaaaa8d;
+}
+
+textarea, input{
+  outline: none !important;
+  border: none !important;
+  &:focus{
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
